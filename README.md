@@ -20,7 +20,7 @@ First, the book in PDF format is transformed into .txt format, so that it can be
 
 Then it was imported into the work environment, where, with the tools of the NLTK library, the text words were tokenized, the repeated ones were excluded and other unwanted words (stopwords) were eliminated.
 
-## Building the broker
+## Building the spell checker
 
 The spell checker is built around 4 word correction functions: one to add missing letters, one to eliminate excess letters, one to change two letters in place and one to replace a misspelled letter. After generalizing all the options, it indicates the most recurrent word in the corpus.
 
